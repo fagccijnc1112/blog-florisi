@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <!--Idioma para que acepte las tildes-->
+        <meta charset="UTF-8">
+        <link rel="icon" href="favicon.ico" type="image/png"/>
+<!-- Titulo pestaña-->
+<title>Florisi</title>
+<!--Para agregar estilo y personalizar la página-->
+<link rel="stylesheet" type="text/css" href="theme.css">
+<!--Tipo de letra. Link+el nombre del tipo de letra-->
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<!--Se añade el main.js-->
+<script src="main.js"></script>
+<head>
+</head>
+<!--Pop add-->
+<body onload="saluda()" background="Astronomos.jpg">
+        <div> <!--Dividir-->    
+
+        <h1>- Nuestro blogaso -</h1> <!--Primer texto-->
+        <!--se le agrega una clase para poder llamarla dsp en el css-->
+        <p class="big-text"> wena cabres somos la Isi y la Flo </p>
+        <p> Y este es nuestro primer y pulento blog :).</p> <!--Otro párrafo-->
+        <p>Tenemos hambre y sueño. </p> <!--Otro párrafo-->
+        
+        <!--Colocar imágen-->
+        <img class="imagen-star"src="estrella.jpg">
+        
+        <!--Se le coloca una clase al texto que funcione con el link-->
+        <p><a class="insta" href="https://www.instagram.com/isi_ck/?hl=es-la">  - Instagram Isi - </a></p> 
+        <p><a class="insta2" href="https://www.instagram.com/florenz_campos/?hl=es-la"> - Instagram Flo - </a> </p>
+        <link href="https://fonts.googleapis.com/css?family=Kosugi" rel="stylesheet">
+        </div>
+<div>
+      <textarea id="Nuevo-Comentario" ></textarea>
+      <!--Botón para comentario-->
+      <button onclick="agregarComentario()">
+        Agregar Comentario
+      </button>
+       <!--Creando sección para comentarios-->
+      <section id="seccion-comentarios">           
+      </section>
+</div>      
+        
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+h1{
+    color:rgb(173, 34, 97);
+    text-align:center
+}
+.big-text{
+    font-size: 30px;
+    
+    color: rgb(82, 137, 238)   
+}
+p{ 
+    text-align:center
+}
+.imagen-star{
+    width: 350px;  
+    display: block;
+    margin: auto;
+}
+.big-text:hover{
+    font-size: 30px;
+    color: rgb(128, 75, 226)
+}
+.insta:hover{
+font-size: 25px;
+font-family: 'Kosugi', sans-serif; 
+color: darkorchid;
+
+}
+.insta2:hover{
+font-size: 25px;
+font-family: 'Kosugi', sans-serif; 
+color: darkorchid;
+}
+
+div{
+    width: 750px;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: rgb(156, 172, 156)
+}
+
+a{
+    color: rgb(202, 95, 24)
+}
+
